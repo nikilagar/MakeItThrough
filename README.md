@@ -21,7 +21,11 @@ When you use the "Verify" feature:
 The Extension requires the following permissions to function:
 *   `activeTab`: To access the selected text on the current page when you trigger the verification.
 *   `contextMenus`: To add the "Verify with Sources" option to the right-click menu.
+*   `storage`: To store your Pro license key locally on your device. This key is never transmitted except to verify your Pro status with our server.
 *   `host_permissions` : To communicate with the cloud backend verification endpoint.
 
-## 5. Contact
+## 5. Local Storage
+We use Chrome's local storage only to save your **License Key** (if you have purchased a Pro plan). This ensures you don't need to re-enter it every time. We do not store any other personal data locally.
+
+## 6. Contact
 If you have any questions about this Privacy Policy, please contact the developer via the support link on the Chrome Web Store.
